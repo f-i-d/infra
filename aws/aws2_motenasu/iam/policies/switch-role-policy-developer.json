@@ -5,13 +5,16 @@
             "Effect": "Deny",
             "Action": [
                 "aws-portal:*",
-                "iam:*"
-            ],
-            "Resource": "*"
-        },
-        {
-            "Effect": "Deny",
-            "Action": [
+                "cur:*",
+                "ce:*",
+                "pricing:*",
+                "purchase-orders:*",
+                "sustainability:*",
+                "iam:*",
+                "tax:*",
+                "customer-verification:*",
+                "invoicing:*",
+                "organizations:*",
                 "ec2:TerminateInstances",
                 "s3:DeleteBucket",
                 "s3:DeleteObject",
