@@ -6,7 +6,7 @@
             "Effect": "Allow",
             "Action": "sts:AssumeRole",
             "Resource": [
-                "arn:aws:iam::368462884078:role/switch-role-manager"
+                "arn:aws:iam::368462884078:role/motenasu-switch-role-manager"
             ]
         },
         {

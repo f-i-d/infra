@@ -4,7 +4,9 @@
 		{
 			"Effect": "Allow",
 			"Principal": {
-				"AWS": "arn:aws:iam::368462884078:user/iam-op-test"
+				"AWS": [
+					"arn:aws:iam::368462884078:user/test-readonly-do-not-delete"
+				]
 			},
 			"Action": "sts:AssumeRole"
 		}
