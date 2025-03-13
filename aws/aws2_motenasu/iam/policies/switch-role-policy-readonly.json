@@ -1,0 +1,45 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "iam:List*",
+                "iam:Get*",
+                "iam:Generate*",
+                "ec2:Describe*",
+                "s3:List*",
+                "s3:Get*",
+                "rds:Describe*",
+                "lambda:ListFunctions",
+                "lambda:GetFunction",
+                "dynamodb:Describe*",
+                "cloudfront:Get*",
+                "states:List*",
+                "states:Describe*",
+                "backup:List*",
+                "kms:Describe*",
+                "kms:List*",
+                "redshift:Describe*"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Deny",
+            "Action": [
+                "aws-portal:*",
+                "cur:*",
+                "ce:*",
+                "pricing:*",
+                "purchase-orders:*",
+                "sustainability:*",
+                "iam:*",
+                "tax:*",
+                "customer-verification:*",
+                "invoicing:*",
+                "organizations:*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
