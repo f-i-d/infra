@@ -12,12 +12,27 @@ iam_users_readonly = [
 # trust-policy-<サービス名>-developer.jsonで
 # 信頼ポリシーにAssumeRoleを許可されている必要があります
 iam_users_developer = [
-  "test-developer-do-not-delete"
+  "test-developer-do-not-delete",
+  "kim",
+  "enn",
+  "vincent",
+  "maria",
+  "calvin",
+  "alvin",
+  "ann",
+  "ianna",
+  "rose",
+  "saturnino",
+  "shena",
+  "michael",
+  "rjay",
+  "sophia"
 ]
 
 # <サービス名>-switch-role-managerにスイッチできるユーザー
 # trust-policy-<サービス名>-manager.jsonで
 # 信頼ポリシーにAssumeRoleを許可されている必要があります
 iam_users_manager = [
-  "test-manager-do-not-delete"
+  "test-manager-do-not-delete",
+  "odate"
 ]
