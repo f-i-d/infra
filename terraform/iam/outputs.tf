@@ -1,9 +1,9 @@
 output "iam_users" {
-  value = [
-    for user in values(aws_iam_user.users_readonly) : user.name,
-    for user in values(aws_iam_user.users_developer) : user.name,
-    for user in values(aws_iam_user.users_manager) : user.name
-  ]
+  value = concat(
+    [for user in values(aws_iam_user.users_readonly) : user.name],
+    [for user in values(aws_iam_user.users_developer) : user.name],
+    [for user in values(aws_iam_user.users_manager) : user.name]
+  )
 }
 
 output "iam_roles" {
