@@ -12,27 +12,25 @@ iam_users_readonly = [
 # trust-policy-<サービス名>-developer.jsonで
 # 信頼ポリシーにAssumeRoleを許可されている必要があります
 iam_users_developer = [
-  "test-developer-do-not-delete",
-  "kim",
-  "enn",
-  "vincent",
-  "maria",
-  "calvin",
-  "alvin",
-  "ann",
-  "ianna",
-  "rose",
-  "saturnino",
-  "shena",
-  "michael",
-  "rjay",
-  "sophia"
+  "motenasu-kim",
+  "motenasu-enn",
+  "motenasu-vincent",
+  "motenasu-maria",
+  "motenasu-calvin",
+  "motenasu-alvin",
+  "motenasu-ann",
+  "motenasu-ianna",
+  "motenasu-rose",
+  "motenasu-saturnino",
+  "motenasu-shena",
+  "motenasu-michael",
+  "motenasu-rjay",
+  "motenasu-sophia"
 ]
 
 # <サービス名>-switch-role-managerにスイッチできるユーザー
 # trust-policy-<サービス名>-manager.jsonで
 # 信頼ポリシーにAssumeRoleを許可されている必要があります
 iam_users_manager = [
-  "test-manager-do-not-delete",
-  "odate"
+  "motenasu-odate"
 ]
