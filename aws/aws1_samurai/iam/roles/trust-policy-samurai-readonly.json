@@ -5,7 +5,7 @@
 			"Effect": "Allow",
 			"Principal": {
 				"AWS": [
-					"arn:aws:iam::368462884078:user/motenasu-odate"
+					"arn:aws:iam::544066831456:user/test-readonly-do-not-delete"
 				]
 			},
 			"Action": "sts:AssumeRole"

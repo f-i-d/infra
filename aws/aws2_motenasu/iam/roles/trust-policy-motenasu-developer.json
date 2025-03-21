@@ -4,7 +4,22 @@
 		{
 			"Effect": "Allow",
 			"Principal": {
-				"AWS": "arn:aws:iam::368462884078:user/iam-op-test"
+				"AWS": [
+					"arn:aws:iam::368462884078:user/motenasu-kim",
+					"arn:aws:iam::368462884078:user/motenasu-enn",
+					"arn:aws:iam::368462884078:user/motenasu-vincent",
+					"arn:aws:iam::368462884078:user/motenasu-maria",
+					"arn:aws:iam::368462884078:user/motenasu-calvin",
+					"arn:aws:iam::368462884078:user/motenasu-alvin",
+					"arn:aws:iam::368462884078:user/motenasu-ann",
+					"arn:aws:iam::368462884078:user/motenasu-ianna",
+					"arn:aws:iam::368462884078:user/motenasu-rose",
+					"arn:aws:iam::368462884078:user/motenasu-saturnino",
+					"arn:aws:iam::368462884078:user/motenasu-shena",
+					"arn:aws:iam::368462884078:user/motenasu-michael",
+					"arn:aws:iam::368462884078:user/motenasu-rjay",
+					"arn:aws:iam::368462884078:user/motenasu-sophia"
+				]
 			},
 			"Action": "sts:AssumeRole"
 		}

@@ -6,7 +6,7 @@
             "Effect": "Allow",
             "Action": "sts:AssumeRole",
             "Resource": [
-                "arn:aws:iam::368462884078:role/switch-role-readonly"
+                "arn:aws:iam::368462884078:role/motenasu-switch-role-readonly"
             ]
         },
         {
@@ -53,22 +53,14 @@
             }
         },
         {
-            "Sid": "BlockMostAccessUnlessSignedInWithMFA",
-            "Effect": "Deny",
-            "NotAction": [
-                "iam:CreateVirtualMFADevice",
-                "iam:EnableMFADevice",
-                "iam:ListMFADevices",
-                "iam:ListUsers",
-                "iam:ListVirtualMFADevices",
-                "iam:ResyncMFADevice"
+            "Sid": "AllowUserToChangeOwnPassword",
+            "Effect": "Allow",
+            "Action": [
+                "iam:*"
             ],
-            "Resource": "*",
-            "Condition": {
-                "BoolIfExists": {
-                    "aws:MultiFactorAuthPresent": "false"
-                }
-            }
+            "Resource": [
+                "arn:aws:iam::*:user/${aws:username}"
+            ]
         }
     ]
 }
