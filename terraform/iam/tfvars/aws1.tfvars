@@ -12,6 +12,7 @@ iam_users_readonly = [
 # trust-policy-<サービス名>-developer.jsonで
 # 信頼ポリシーにAssumeRoleを許可されている必要があります
 iam_users_developer = [
+    "samurai-test-developer",
     "samurai-jo",
     "samurai-jeff",
     "samurai-romeo",
@@ -24,5 +25,6 @@ iam_users_developer = [
 # trust-policy-<サービス名>-manager.jsonで
 # 信頼ポリシーにAssumeRoleを許可されている必要があります
 iam_users_manager = [
+    "samurai-test-manager",
     "samurai-saturnino"
 ]

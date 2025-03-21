@@ -5,6 +5,7 @@
 			"Effect": "Allow",
 			"Principal": {
 				"AWS": [
+					"arn:aws:iam::544066831456:user/samurai-test-manager",
 					"arn:aws:iam::544066831456:user/samurai-saturnino"
 				]
 			},
