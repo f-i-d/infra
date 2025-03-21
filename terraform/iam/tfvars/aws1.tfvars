@@ -16,7 +16,7 @@ iam_users_developer = [
     "samurai-jo",
     "samurai-jeff",
     "samurai-romeo",
-    "samurai-pllar",
+    "samurai-pilar",
     "samurai-linssen",
     "samurai-shimoda"
 ]
