@@ -5,7 +5,6 @@
 			"Effect": "Allow",
 			"Principal": {
 				"AWS": [
-					"arn:aws:iam::368462884078:user/test-developer-do-not-delete",
 					"arn:aws:iam::368462884078:user/motenasu-kim",
 					"arn:aws:iam::368462884078:user/motenasu-enn",
 					"arn:aws:iam::368462884078:user/motenasu-vincent",
